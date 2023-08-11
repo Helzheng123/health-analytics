@@ -32,6 +32,7 @@ severity_of_the_symptom = {
     'shallow breathing': 'moderate for hypothermia',
     'redness of the skin': 'mild for hyperthermia',
     'excessive sweating': 'severe for hyperthermia'
+    'none' : 'You\'re normal'
 }
 ```
 This was an example of a nested dictionary, which showed each of the symptoms and their severity (I only chose 4 but I can add more later on).
@@ -79,7 +80,15 @@ elif symptoms_experienced == 'redness of the skin':
     print(severity_of_the_symptom['redness of the skin'])
 elif symptoms_experienced == 'excessive sweating':
     print(severity_of_the_symptom['excessive sweating'])
+elif symptoms_experienced == 'none':
+    print(severity_of_the_symptom['none'])
 else:
     print('Please consult your physician immediately')
 ```
 This is another function with if/else statements on how severe the symptom the patient experienced is. 
+
+## Expected Output
+Because I made this a little more interactive, the expected outputs will be different depending on what the user enters.
+For example:
+
+<img width="371" alt="image" src="https://github.com/Helzheng123/health-analytics/assets/123939070/9d7f4581-36a7-4f09-9f20-0f55e21f1854">
