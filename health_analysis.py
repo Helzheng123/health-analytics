@@ -16,7 +16,8 @@ severity_of_the_symptom = {
     'shivering': 'mild for hypothermia',
     'shallow breathing': 'moderate for hypothermia',
     'redness of the skin': 'mild for hyperthermia',
-    'excessive sweating': 'severe for hyperthermia'
+    'excessive sweating': 'severe for hyperthermia',
+    'none' : 'You\'re normal'
 }
 # mild just indicates the first sign/encounter
 
@@ -56,5 +57,7 @@ elif symptoms_experienced == 'redness of the skin':
     print(severity_of_the_symptom['redness of the skin'])
 elif symptoms_experienced == 'excessive sweating':
     print(severity_of_the_symptom['excessive sweating'])
+elif symptoms_experienced == 'none':
+    print(severity_of_the_symptom['none'])
 else:
     print('Please consult your physician immediately')
