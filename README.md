@@ -92,3 +92,8 @@ Because I made this a little more interactive, the expected outputs will be diff
 For example if it was 98.6:
 <img width="1000" alt="image" src="https://github.com/Helzheng123/health-analytics/assets/123939070/95394387-39c3-4a19-8fd6-30660438835d">
 
+Now if I entered 94:
+<img width="1000" alt="image" src="https://github.com/Helzheng123/health-analytics/assets/123939070/51de4ffb-5722-4398-b519-790cb7314e32">
+
+
+
