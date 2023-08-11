@@ -38,13 +38,27 @@ This was an example of a nested dictionary, which showed each of the symptoms an
 
 ```
 patient_information = {
-    'Last Name First Name' : 'Zheng Helen',
-    'Age' : 21,
-    'Sex' : 'Female',
-    'Symptoms' : ['fainting', 'excessive sweating', 'redness of the skin', 'hot skin']
+    'patient1' : {
+        'Last Name First Name' : 'Zheng Helen',
+        'Age' : 21,
+        'Sex' : 'Female',
+        'Symptoms' : ['fainting', 'excessive sweating', 'redness of the skin', 'hot skin']
+    },
+    'patient2' : {
+        'Last Name First Name' : 'Kaur Jasmeen',
+        'Age' : 21,
+        'Sex' : 'Female',
+        'Symptoms' : ['shivering', 'shallow breathing', 'confusion', 'stiff muscles']
+    },
+    'patient3' : {
+        'Last Name First Name' : 'Steward Heather',
+        'Age' : 22,
+        'Sex' : 'Female',
+        'Symptoms' : ['dizziness', 'muscle pain', 'pale skin', 'profuse sweating']
+    }
 }
 ```
-This was just some background information about the patient. It is also a nested dictionary with a list in one of the key : value. 
+This was just some background information about the patients. It is also a nested dictionary with a list in the key : value. 
 
 ```
 temperature_ranges = {
