@@ -23,10 +23,24 @@ severity_of_the_symptom = {
 
 # Just background information about the patient
 patient_information = {
-    'Last Name First Name' : 'Zheng Helen',
-    'Age' : 21,
-    'Sex' : 'Female',
-    'Symptoms' : ['fainting', 'excessive sweating', 'redness of the skin', 'hot skin']
+    'patient1' : {
+        'Last Name First Name' : 'Zheng Helen',
+        'Age' : 21,
+        'Sex' : 'Female',
+        'Symptoms' : ['fainting', 'excessive sweating', 'redness of the skin', 'hot skin']
+    },
+    'patient2' : {
+        'Last Name First Name' : 'Kaur Jasmeen',
+        'Age' : 21,
+        'Sex' : 'Female',
+        'Symptoms' : ['shivering', 'shallow breathing', 'confusion', 'stiff muscles']
+    },
+    'patient3' : {
+        'Last Name First Name' : 'Steward Heather',
+        'Age' : 22,
+        'Sex' : 'Female',
+        'Symptoms' : ['dizziness', 'muscle pain', 'pale skin', 'profuse sweating']
+    }
 }
 
 # The following are temperature ranges for the normal body temperature in degrees Fahrenheit
@@ -61,3 +75,4 @@ elif symptoms_experienced == 'none':
     print(severity_of_the_symptom['none'])
 else:
     print('Please consult your physician immediately')
+    
