@@ -20,7 +20,6 @@ print('Welcome back', name,',', 'from my observations:')
 ```
 This is just a print function to welcome the user.
 
-And this:
 ```
 symptoms_experienced = ['shivering', 'shallow breathing', 'redness of the skin', 'excessive sweating']
 ```
