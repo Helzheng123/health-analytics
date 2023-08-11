@@ -89,6 +89,6 @@ This is another function with if/else statements on how severe the symptom the p
 
 ## Expected Output
 Because I made this a little more interactive, the expected outputs will be different depending on what the user enters.
-For example:
+For example if it was 98.6:
+<img width="1000" alt="image" src="https://github.com/Helzheng123/health-analytics/assets/123939070/95394387-39c3-4a19-8fd6-30660438835d">
 
-<img width="371" alt="image" src="https://github.com/Helzheng123/health-analytics/assets/123939070/9d7f4581-36a7-4f09-9f20-0f55e21f1854">
