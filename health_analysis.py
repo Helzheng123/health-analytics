@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-# We will now be testing temperature (in Fahrenheit) of patient Helen Zheng
+# We will now be testing temperature (in Fahrenheit) of patients Helen Zheng, Jasmeen Kaur, and Heather Steward
 
 temperature = float(input('Please Enter Your Current Body Temperature: '))
 
@@ -75,4 +75,3 @@ elif symptoms_experienced == 'none':
     print(severity_of_the_symptom['none'])
 else:
     print('Please consult your physician immediately')
-    
