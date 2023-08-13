@@ -37,7 +37,7 @@ patient_information = {
     },
     'patient3' : {
         'Last Name First Name' : 'Steward Heather',
-        'Age' : 22,
+        'Age' : 23,
         'Sex' : 'Female',
         'Symptoms' : ['dizziness', 'muscle pain', 'pale skin', 'profuse sweating']
     }
